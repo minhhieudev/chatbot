@@ -55,6 +55,12 @@ def chatbot_response(sentence):
     else:
         return "Tôi không hiểu..."
 
+# Route mặc định cho đường dẫn gốc
+@app.route('/')
+def index():
+    return 'Welcome to my Flask Chatbot API!'
+
+# Endpoint để xử lý yêu cầu chat
 @app.route('/chat', methods=['POST'])
 def chat():
     user_input = request.json.get('message')
