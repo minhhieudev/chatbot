@@ -1,0 +1,149 @@
+{
+    "intents": [
+        {
+            "tag": "gioi_thieu_ngon_ngu_lap_trinh",
+            "patterns": [
+                "Ngôn ngữ lập trình nào nên học?",
+                "Tư vấn chọn ngôn ngữ lập trình",
+                "Ngôn ngữ lập trình phổ biến",
+                "Bắt đầu học lập trình từ đâu?"
+            ],
+            "responses": [
+                "Có nhiều ngôn ngữ lập trình phổ biến như Python, JavaScript, Java, C++ và Ruby.",
+                "Python thích hợp cho người mới bắt đầu với cú pháp đơn giản và sức mạnh trong lĩnh vực khoa học dữ liệu và trí tuệ nhân tạo.",
+                "JavaScript là ngôn ngữ phổ biến trong lĩnh vực phát triển web và ứng dụng di động.",
+                "Java là một trong những ngôn ngữ lập trình được ứng dụng rộng rãi trong phát triển ứng dụng doanh nghiệp."
+            ]
+        },
+        {
+            "tag": "kho_hoc_lap_trinh",
+            "patterns": [
+                "Nơi học lập trình",
+                "Khoá học lập trình online",
+                "Trung tâm đào tạo lập trình"
+            ],
+            "responses": [
+                "Bạn có thể tìm kiếm khoá học lập trình trực tuyến trên các trang web như Udemy, Coursera, hoặc Codecademy.",
+                "Các trung tâm đào tạo lập trình cũng là một lựa chọn tốt để học offline với sự hỗ trợ từ giáo viên và môi trường học tập chuyên nghiệp."
+            ]
+        },
+        {
+            "tag": "phat_trien_project",
+            "patterns": [
+                "Bắt đầu phát triển dự án lập trình",
+                "Tư vấn làm dự án lập trình",
+                "Hướng dẫn làm project lập trình"
+            ],
+            "responses": [
+                "Bắt đầu với một ý tưởng rõ ràng và xác định phạm vi của dự án trước khi bắt tay vào lập trình.",
+                "Tạo kế hoạch và lên lịch trình công việc để theo dõi tiến độ của dự án.",
+                "Tìm kiếm nguồn tài nguyên và hướng dẫn trực tuyến để hỗ trợ trong quá trình phát triển dự án."
+            ]
+        },
+        {
+            "tag": "tim_kiem_viec_lam",
+            "patterns": [
+                "Tìm việc làm lập trình viên",
+                "Bí quyết xin việc lập trình",
+                "Nơi tìm kiếm công việc lập trình"
+            ],
+            "responses": [
+                "Có thể tìm việc làm lập trình viên trên các trang web việc làm như ITviec, VietnamWorks hoặc LinkedIn.",
+                "Nên chuẩn bị sẵn portfolio và CV chất lượng để gây ấn tượng với nhà tuyển dụng.",
+                "Tham gia vào cộng đồng lập trình viên và xây dựng mạng lưới quan hệ để tìm kiếm cơ hội việc làm."
+            ]
+        },
+        {
+            "tag": "giai_dap_thac_mac",
+            "patterns": [
+                "Cách giải quyết lỗi lập trình",
+                "Hướng dẫn sửa lỗi code",
+                "Cách tìm kiếm thông tin lập trình trên internet",
+                "Tư vấn khi gặp khó khăn trong lập trình"
+            ],
+            "responses": [
+                "Thử sử dụng công cụ debug của trình biên dịch hoặc trình gỡ lỗi để xác định vị trí và nguyên nhân của lỗi.",
+                "Tra cứu tài liệu lập trình hoặc tham gia vào các diễn đàn trao đổi kiến thức như Stack Overflow để tìm giải pháp cho vấn đề của bạn.",
+                "Đừng ngần ngại hỏi các cộng đồng lập trình viên trên mạng nếu bạn gặp phải vấn đề khó khăn trong quá trình lập trình."
+            ]
+        },
+        {
+            "tag": "tu_van_ngon_ngu",
+            "patterns": [
+                "Tư vấn chọn ngôn ngữ lập trình",
+                "Nên học ngôn ngữ lập trình nào?",
+                "Phân biệt giữa các ngôn ngữ lập trình"
+            ],
+            "responses": [
+                "Nếu bạn quan tâm đến lĩnh vực web development, có thể học JavaScript.",
+                "Nếu bạn muốn làm việc trong lĩnh vực khoa học dữ liệu, Python là sự lựa chọn tốt.",
+                "Java thích hợp cho việc phát triển ứng dụng doanh nghiệp."
+            ]
+        },
+        {
+            "tag": "gioi_thieu_framework",
+            "patterns": [
+                "Có những framework nào được sử dụng phổ biến?",
+                "Giới thiệu về các framework lập trình",
+                "Sự khác biệt giữa framework"
+            ],
+            "responses": [
+                "Các framework phổ biến bao gồm Angular, React và Vue.js trong phát triển frontend.",
+                "Django và Flask là các framework phổ biến cho việc phát triển backend bằng Python.",
+                "Spring Boot là một framework được ưa chuộng trong việc phát triển ứng dụng Java."
+            ]
+        },
+        {
+            "tag": "hoc_lap_trinh_web",
+            "patterns": [
+                "Học lập trình web từ đâu?",
+                "Khoá học lập trình web",
+                "Hướng dẫn tự học lập trình web"
+            ],
+            "responses": [
+                "Bạn có thể bắt đầu học lập trình web từ các khoá học trực tuyến như HTML, CSS, JavaScript trên các trang web như Codecademy, FreeCodeCamp.",
+                "Nếu muốn học sâu hơn, có thể tham gia vào các khoá học về các framework và thư viện phổ biến như React, Angular, hoặc Vue.js.",
+                "Thực hành là yếu tố quan trọng nhất khi học lập trình web, hãy tạo các dự án thực tế để củng cố kiến thức và kỹ năng của bạn."
+            ]
+        },
+        {
+            "tag": "phat_trien_ung_dung_di_dong",
+            "patterns": [
+                "Học lập trình ứng dụng di động",
+                "Khoá học lập trình di động",
+                "Hướng dẫn tự học lập trình di động"
+            ],
+            "responses": [
+                "Để học lập trình ứng dụng di động, bạn có thể bắt đầu với việc học ngôn ngữ lập trình phổ biến cho mobile như Swift (cho iOS) hoặc Kotlin (cho Android).",
+                "Sau đó, tham gia vào các khoá học về phát triển ứng dụng di động trên các trang web như Udemy, Coursera hoặc trang chính thức của Apple và Google.",
+                "Xây dựng các ứng dụng di động thực tế và tham gia vào các dự án open-source để rèn luyện kỹ năng và kinh nghiệm của bạn."
+            ]
+        },
+        {
+            "tag": "lap_trinh_game",
+            "patterns": [
+                "Tư vấn học lập trình game",
+                "Khoá học lập trình game",
+                "Hướng dẫn tự học lập trình game"
+            ],
+            "responses": [
+                "Học lập trình game đòi hỏi kiến thức về lập trình cơ bản và kiến thức đặc thù về game development.",
+                "Có thể bắt đầu với việc học các ngôn ngữ và công cụ phổ biến trong lập trình game như C++, C#, hoặc Unity.",
+                "Tham gia vào các khoá học và dự án thực hành về phát triển game để rèn luyện kỹ năng và xây dựng portfoilio."
+            ]
+        },
+        {
+            "tag": "nang_cao_kien_thuc",
+            "patterns": [
+                "Làm thế nào để nâng cao kiến thức lập trình?",
+                "Hướng dẫn tự học lập trình hiệu quả",
+                "Tư vấn tự học lập trình"
+            ],
+            "responses": [
+                "Tham gia vào các dự án thực tế và thực hành lập trình hàng ngày là cách tốt nhất để nâng cao kiến thức và kỹ năng của bạn.",
+                "Đọc sách và tài liệu, xem các bài giảng trực tuyến, và tham gia vào các cộng đồng lập trình để học hỏi từ người khác.",
+                "Đừng ngần ngại thử nghiệm và tìm hiểu về các công nghệ và dự án mới để mở rộng kiến thức của mình."
+            ]
+        }
+    ]
+}

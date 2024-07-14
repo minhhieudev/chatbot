@@ -1,0 +1,61 @@
+{
+    "intents": [
+      {
+        "tag": "gioi_thieu_thoi_trang",
+        "patterns": [
+          "Thời trang hiện nay",
+          "Xu hướng thời trang",
+          "Các mốt thời trang mới",
+          "Thời trang nổi bật"
+        ],
+        "responses": [
+          "Những màu sắc tươi sáng và họa tiết nổi bật là xu hướng thời trang năm nay.",
+          "Chất liệu tự nhiên và thiết kế đơn giản đang được ưa chuộng trong làng thời trang.",
+          "Các phong cách retro và vintage đang tái xuất trong thế giới thời trang.",
+          "Đồ denim và phụ kiện như kính râm và túi xách có kiểu dáng cổ điển đang trở lại mạnh mẽ."
+        ]
+      },
+      {
+        "tag": "chon_trang_phuc",
+        "patterns": [
+          "Làm thế nào để chọn trang phục?",
+          "Tư vấn chọn trang phục",
+          "Phong cách thời trang phù hợp",
+          "Cách mix đồ"
+        ],
+        "responses": [
+          "Nên chọn trang phục phản ánh phong cách cá nhân và cảm giác thoải mái của bạn.",
+          "Hãy thử mix đồ với các mẫu trang phục và phụ kiện khác nhau để tạo ra phong cách riêng của bạn.",
+          "Cân nhắc đến dịp sự kiện và môi trường trước khi chọn trang phục phù hợp."
+        ]
+      },
+      {
+        "tag": "cham_soc_vay_dep",
+        "patterns": [
+          "Cách chăm sóc váy đẹp",
+          "Bảo quản quần áo",
+          "Làm thế nào để giữ quần áo mới",
+          "Vệ sinh giày dép"
+        ],
+        "responses": [
+          "Luôn tuân thủ hướng dẫn về bảo quản trên nhãn của sản phẩm khi giặt và làm sạch quần áo.",
+          "Nên treo quần áo thay vì gấp lại để tránh nhăn và biến dạng vải.",
+          "Đặt giày dép vào hộp để tránh bị bụi và ẩm ướt, đồng thời sử dụng đệm hút ẩm nếu cần thiết."
+        ]
+      },
+      {
+        "tag": "tim_kiem_san_pham",
+        "patterns": [
+          "Cách tìm kiếm sản phẩm thời trang",
+          "Mua sắm thời trang online",
+          "Địa chỉ cửa hàng thời trang"
+        ],
+        "responses": [
+          "Có thể tìm kiếm sản phẩm thời trang trên các trang web thương mại điện tử như Zara, H&M hoặc ASOS.",
+          "Đối với mua sắm trực tuyến, hãy chú ý đến chính sách đổi trả và phí vận chuyển trước khi đặt hàng.",
+          "Bạn có thể tìm kiếm cửa hàng thời trang gần nhất qua ứng dụng bản đồ trên điện thoại di động."
+        ]
+      }
+    ]
+  }
+  

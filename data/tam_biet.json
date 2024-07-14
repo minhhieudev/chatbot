@@ -1,0 +1,44 @@
+{
+    "intents": [
+      {
+        "tag": "tam_biet",
+        "patterns": [
+          "Tạm biệt",
+          "Chào tạm biệt",
+          "Bye",
+          "Hẹn gặp lại",
+          "Chào nhé",
+          "Chúc ngủ ngon",
+          "Tạm biệt nhé",
+          "Tạm biệt và hẹn gặp lại",
+          "Xin chào tạm biệt",
+          "Chào tạm biệt bạn",
+          "Bye bye",
+          "See you",
+          "Goodbye",
+          "Catch you later",
+          "Take care",
+          "See you later",
+          "Have a nice day",
+          "See you next time"
+        ],
+        "responses": [
+          "Tạm biệt! Hẹn gặp lại bạn.",
+          "Chào bạn, hẹn gặp lại lần sau.",
+          "Tạm biệt, chúc bạn một ngày tốt lành!",
+          "Hẹn gặp lại! Chúc bạn mọi điều tốt đẹp.",
+          "Chúc bạn ngủ ngon và có giấc mơ đẹp.",
+          "Tạm biệt! Chúc bạn một ngày tuyệt vời.",
+          "Bye! Hẹn gặp lại bạn lần sau.",
+          "Chào tạm biệt, mong sớm gặp lại bạn.",
+          "Tạm biệt nhé! Nhớ giữ gìn sức khỏe.",
+          "See you! Have a great day ahead.",
+          "Goodbye! Wishing you all the best.",
+          "Catch you later! Take care.",
+          "Take care! See you next time.",
+          "See you later! Have a wonderful day."
+        ]
+      }
+    ]
+  }
+  

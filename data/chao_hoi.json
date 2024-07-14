@@ -1,0 +1,46 @@
+{
+    "intents": [
+      {
+        "tag": "chao_hoi",
+        "patterns": [
+          "Xin chào",
+          "Chào bạn",
+          "Chào",
+          "Hi",
+          "Hello",
+          "Chào buổi sáng",
+          "Chào buổi chiều",
+          "Chào buổi tối",
+          "Chào anh",
+          "Chào chị",
+          "Chào em",
+          "Xin chào bạn",
+          "Xin chào các bạn",
+          "Chào mọi người",
+          "Hi there",
+          "Hey",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Hello everyone"
+        ],
+        "responses": [
+          "Xin chào! Bạn cần giúp gì?",
+          "Chào bạn, tôi có thể giúp gì cho bạn?",
+          "Xin chào, bạn cần tư vấn gì?",
+          "Chào bạn, hôm nay bạn thế nào?",
+          "Xin chào! Tôi có thể giúp gì cho bạn hôm nay?",
+          "Chào mừng bạn! Có gì tôi có thể giúp không?",
+          "Chào buổi sáng! Bạn cần hỗ trợ gì?",
+          "Chào buổi chiều! Bạn cần giúp gì?",
+          "Chào buổi tối! Tôi có thể làm gì cho bạn?",
+          "Hi there! How can I assist you today?",
+          "Hello! How can I help you?",
+          "Good morning! What can I do for you?",
+          "Good afternoon! Need any assistance?",
+          "Good evening! How can I be of service?"
+        ]
+      }
+    ]
+  }
+  

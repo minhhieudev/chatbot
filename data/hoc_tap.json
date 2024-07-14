@@ -1,0 +1,60 @@
+{
+    "intents": [
+      {
+        "tag": "gioi_thieu_truong",
+        "patterns": [
+          "Bạn biết về trường học nào không?",
+          "Thông tin về trường học",
+          "Giới thiệu về trường học",
+          "Trường học nổi tiếng",
+          "Có trường học nào tốt không?"
+        ],
+        "responses": [
+          "Trường XYZ là một trường nổi tiếng với chất lượng giáo dục cao và cơ sở vật chất hiện đại.",
+          "Trường ABC cung cấp các chương trình học đa dạng và có đội ngũ giáo viên uy tín.",
+          "Bạn có thể tìm hiểu thêm về trường DEF trên trang web chính thức của họ.",
+          "Trường GHI nổi tiếng với các chương trình nghiên cứu và phát triển sáng tạo."
+        ]
+      },
+      {
+        "tag": "chon_nganh_hoc",
+        "patterns": [
+          "Làm thế nào để chọn ngành học?",
+          "Tư vấn chọn ngành học",
+          "Ngành học phù hợp",
+          "Hướng dẫn chọn ngành học"
+        ],
+        "responses": [
+          "Bạn nên xem xét sở thích, năng lực và cơ hội nghề nghiệp khi chọn ngành học.",
+          "Tham khảo ý kiến của gia đình, bạn bè và người thầy cô để có quyết định chính xác.",
+          "Tìm hiểu thông tin về các ngành học và cơ hội nghề nghiệp tương lai trước khi đưa ra quyết định."
+        ]
+      },
+      {
+        "tag": "hinh_thuc_dao_tao",
+        "patterns": [
+          "Có những hình thức đào tạo nào?",
+          "Loại hình đào tạo",
+          "Cách học"
+        ],
+        "responses": [
+          "Có hình thức học tập truyền thống như học trực tiếp tại trường và hình thức học trực tuyến qua internet.",
+          "Ngoài ra, còn có hình thức học tập thực tế thông qua thực tập và học hỏi tại các doanh nghiệp."
+        ]
+      },
+      {
+        "tag": "tim_kiem_thong_tin",
+        "patterns": [
+          "Cách tìm kiếm thông tin học tập",
+          "Tìm kiếm tài liệu học tập",
+          "Nơi tìm kiếm sách giáo trình",
+          "Website hữu ích cho học tập"
+        ],
+        "responses": [
+          "Bạn có thể tìm kiếm thông tin học tập trên internet, thư viện hoặc các diễn đàn chia sẻ kiến thức.",
+          "Các trang web như Khan Academy, Coursera và edX cung cấp các khóa học trực tuyến miễn phí hoặc có phí."
+        ]
+      }
+    ]
+  }
+  
