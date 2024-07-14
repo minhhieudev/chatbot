@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import torch
@@ -5,10 +6,9 @@ import random
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 import json
-import os
 
 app = Flask(__name__)
-CORS(app)  # Cho phép CORS
+CORS(app)
 
 # Load all intent files from the data/intents directory
 intents = []
@@ -62,4 +62,5 @@ def chat():
     return jsonify({'response': response})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
