@@ -1,5 +1,9 @@
 import numpy as np
 import nltk
+
+# Tải tài nguyên 'punkt' của NLTK
+nltk.download('punkt')
+
 from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
 
@@ -8,7 +12,6 @@ def tokenize(sentence):
 
 def stem(word):
     return stemmer.stem(word.lower())
-
 
 def bag_of_words(tokenized_sentence, words):
     sentence_words = [stem(word) for word in tokenized_sentence]
