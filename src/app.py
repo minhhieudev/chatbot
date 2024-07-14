@@ -8,7 +8,7 @@ from nltk_utils import bag_of_words, tokenize
 import json
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/chat": {"origins": "http://localhost:8081"}})
 
 # Load all intent files from the data/intents directory
 intents = []
