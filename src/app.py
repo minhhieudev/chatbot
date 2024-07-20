@@ -8,7 +8,9 @@ from nltk_utils import bag_of_words, tokenize
 import json
 
 app = Flask(__name__)
-CORS(app, resources={r"/chat": {"origins": "http://localhost:8081"}})
+
+# Cấu hình CORS
+CORS(app, resources={r"/*": {"origins": "https://minhhieudev.github.io"}})
 
 # Load all intent files from the data/intents directory
 intents = []
@@ -55,12 +57,10 @@ def chatbot_response(sentence):
     else:
         return "Tôi không hiểu..."
 
-# Route mặc định cho đường dẫn gốc
 @app.route('/')
 def index():
     return 'Welcome to my Flask Chatbot API!'
 
-# Endpoint để xử lý yêu cầu chat
 @app.route('/chat', methods=['POST'])
 def chat():
     user_input = request.json.get('message')
@@ -69,4 +69,4 @@ def chat():
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
-    app.run(host='0.0.0.0', port=port, debug=False)  # Sử dụng debug=False để không chạy trong chế độ debug
+    app.run(host='0.0.0.0', port=port, debug=False)
